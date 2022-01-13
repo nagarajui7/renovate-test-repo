@@ -1,5 +1,29 @@
 {
-  "extends": [
-    "config:base"
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "baseBranches": [
+    "master"
+  ],
+  "prConcurrentLimit": 10,
+  "ignoreDeps": [
+    "react",
+    "react-dom"
+  ],
+  "schedule": [
+    "at any time"
+  ],
+  "packageRules": [
+    {
+      "matchDatasources": [
+        "maven",
+        "npm",
+        "docker",
+        "terraform-module",
+        "terraform-provider"
+      ],
+      "groupName": "dependencies",
+      "schedule": [
+        "at any time"
+      ]
+    }
   ]
 }
