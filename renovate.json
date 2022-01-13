@@ -16,6 +16,7 @@
       "matchDatasources": [
         "maven",
         "npm",
+        "gradle",
         "docker",
         "terraform-module",
         "terraform-provider"
