@@ -1,5 +1,5 @@
 plugins {
-    id 'ru.vyarus.use-python' version "${pluginVersion}"
+    id 'ru.vyarus.use-python' version '2.3.0'
     id 'com.github.jishida.shellscript' version '0.2.4'
     
 }
